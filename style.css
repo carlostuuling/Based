@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .footer {
+    position: fixed;
+    width: 100%;
+    height: 37vh;
+    padding-top: 35px;
+
+    padding-left: 20px;
+	left: 0;
+	bottom: 0;
+	background: #090660;
+	color: white;
+  }
+  
+  main {
+    flex: 1; /* Or flex-grow: 1;*/
+
+  }
+
+
+
+  
